@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class menuak {
 	
+public static void gehiketa() {
+	int z3;
+	int z1 = 0;
+	int z2 = 0;
+	z3= z1+z2;
+}
+	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("1. Gehiketa" +
@@ -25,7 +32,7 @@ public class menuak {
 		switch (aukerak) {
 		
 		case 1:
-			System.out.println(z1 + z2);
+			gehiketa();
 			break;
 			
 		case 2:
