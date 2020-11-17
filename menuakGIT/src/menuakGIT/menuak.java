@@ -9,7 +9,8 @@ public class menuak {
 		System.out.println("1. Gehiketa" +
 				"2. Kenketa" +
 				"3. Biderketa" +
-				"4. Zatiketa");
+				"4. Zatiketa" +
+				"5. Faktorial");
 		
 		System.out.println("Idatzi bi zenbaki");
 		
@@ -38,6 +39,15 @@ public class menuak {
 		case 4:
 			System.out.println(z1 / z2);
 			break;
+			
+		case 5:
+			double factorial = 1;
+			while ( z1!=0) {
+				  factorial=factorial*z1;
+				  z1--;
+				  System.out.println(factorial);
+			break;
+		
 		
 		}
 		
@@ -45,4 +55,5 @@ public class menuak {
 		
 	}
 	
+   }
 }
